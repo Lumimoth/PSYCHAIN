@@ -1,224 +1,260 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
-	<head>
-		<title>PSYCHAIN | DECEILIO</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+<head>
+  <title>Phantomware 0 Info</title>
 
-		<!-- Wrapper -->
-			<div id="wrapper" class="fade-in">
+  <!-- ──────────────────────────────────────────────────────────────
+       CUSTOM FONT:  System.otf  (must sit beside this HTML file)
+       ────────────────────────────────────────────────────────────── -->
+  <style>
+  @font-face {
+    font-family: 'SystemCustom';
+    src: url('System.otf') format('opentype');   /* adjust path if needed */
+    font-weight: normal;
+    font-style:  normal;
+  }
 
-				<!-- Intro -->
-					<div id="intro">
-						<h1>CHAINED: PSYCHICS//<br />
-						PSYCHAIN</h1>
-						<p>This Action RPG game is a fusion of Dark Souls and Persona series, where  the main character possesses a unique ability that is tied to their personality. However, the ability is a curse that cannot be 
-						unequipped, leading the character on a journey of self-discovery and struggle.
-						<ul class="actions">
-							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
-						</ul>
-					</div>
+  /* Use the custom font everywhere, fall back to monospace */
+  body,
+  p,
+  h,
+  HEADER,
+  .title-space,
+  .barcode-space {
+    font-family: 'SystemCustom', monospace;
+  }
 
-				<!-- Header -->
-					<header id="header">
-						<a href="index.html" class="logo">Psychain</a>
-					</header>
+  /* ────────── ORIGINAL (unchanged) CSS ────────── */
+  .barcode-space{
+      text-align:right;
+      font-size:20px;
+      font-weight:bold;
+      color:#68664E;
+      width:1000px;
+      margin:9px auto;
+      text-shadow:2px 0px #969370;
+  }
+  .title-space{
+      font-size:40px;
+      font-weight:bold;
+      color:#fff;
+      width:980px;
+      margin:auto 0;
+      height:50px;
+      text-shadow:4px 4px #413F37;
+      background:#969370;
+      padding:0 10px 20px;
+      box-shadow:inset 3px 3px #969370,
+                 inset 0 -8px #68664E,
+                 4px 4px #68664E,
+                 -3px -3px #fff;
+  }
+  .spoiler{
+      background:#ECE9D8;
+      color:transparent;
+      user-select:none;
+  }
+  .spoiler:hover{
+      background:inherit;
+      color:inherit;
+  }
+  .centre{
+      width:1000px;
+      margin:50px auto;
+      box-shadow:-7px -7px #969370;
+  }
+  .content{
+      background:#fff;
+      padding:0 40px 40px 10px;
+      box-shadow:inset 3px 3px #969370,
+                 inset -4px -4px #C9C6B7,
+                 4px 4px #68664E,
+                 -3px -3px #fff,
+                 inset -3px -3px #fff,
+                 inset -2px -2px #68664E;
+      border:8px solid #ECE9D8;
+  }
+  .diamond-pattern{
+      position:fixed;
+      top:0;left:0;
+      width:100%;height:100%;
+      z-index:-2;
+      background-image:linear-gradient(45deg,#000000 25%,transparent 25%,transparent 75%,#000000 75%,#000000),
+                       linear-gradient(45deg,#000000 25%,transparent 25%,transparent 75%,#000000 75%,#000000);
+      background-size:40px 40px;
+      background-position:0 0,20px 20px;
+      animation:marquee 2s linear infinite;
+  }
+  @keyframes marquee{
+      0%{background-position:0 40px,20px 60px;}
+      100%{background-position:40px 0,60px 20px;}
+  }
+  body{
+      width:100%;
+      background:#fff;
+      margin:0;
+      line-height:1em;
+  }
+  HEADER{
+      padding:25px 0 0;
+      font-size:30px;
+      font-weight:bold;
+      margin-left:1em;
+      color:#120110;
+  }
+  h{
+      padding:0;
+      line-height:1em;
+      margin-left:2.5em;
+      font-weight:bold;
+  }
+  p{
+      padding:0;
+      line-height:1.2em;
+      margin-left:2.5em;
+  }
+  </style>
+</head>
 
-				<!-- Nav -->
-					<nav id="nav">
-						<ul class="links">
-							<li class="active"><a href="index.html">About</a></li>
-							<li><a href="generic.html">Screenshots</a></li>
-							<li><a href="elements.html">Team Members</a></li>
-						</ul>
-						<ul class="icons">
-							<li><a href="https://twitter.com/deceiliogames" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-							<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-							<li><a href="https://www.instagram.com/deceiliogames/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-							<li><a href="https://github.com/Deceilio/" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-						</ul>
-					</nav>
+<body>
+  <div class="diamond-pattern"></div>
 
-				<!-- Main -->
-					<div id="main">
+  <div class="centre">
+    <div class="title-space"><br><br>PHANTOMWARE  0  INFO</div>
 
-						<!-- Featured Post -->
-							<article class="post featured">
-								<header class="major">
-									<span class="date">April 30, 2023</span>
-									<h2><a href="#">PSYCHAIN<br />
-									CHAINED: PSYCHICS</a></h2>
-									<p>Aenean ornare velit lacus varius enim ullamcorper proin aliquam<br />
-									facilisis ante sed etiam magna interdum congue. Lorem ipsum dolor<br />
-									amet nullam sed etiam veroeros.</p>
-								</header>
-								<a href="#" class="image main"><img src="images/pic01.jpg" alt="" /></a>
-								<ul class="actions special">
-									<li><a href="#" class="button large">Full Story</a></li>
-								</ul>
-							</article>
+    <div class="content">
+      <br>
+      <p><strong>NOTICE:</strong> If you have any issues / bugs for the game please join the discord
+      <a href="https://discord.com/invite/lumimoth">discord.gg/lumimoth</a> and say your issue in the #bugs channel. I will do my best to fix your bugs</p>
 
-						<!-- Posts -->
-							<section class="posts">
-								<article>
-									<header>
-										<span class="date">April 30, 2023</span>
-										<h2><a href="#">Sed magna<br />
-										ipsum faucibus</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/pic02.jpg" alt="" /></a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
-									<ul class="actions special">
-										<li><a href="#" class="button">Full Story</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<span class="date">April 22, 2017</span>
-										<h2><a href="#">Primis eget<br />
-										imperdiet lorem</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/pic03.jpg" alt="" /></a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
-									<ul class="actions special">
-										<li><a href="#" class="button">Full Story</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<span class="date">April 18, 2017</span>
-										<h2><a href="#">Ante mattis<br />
-										interdum dolor</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/pic04.jpg" alt="" /></a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
-									<ul class="actions special">
-										<li><a href="#" class="button">Full Story</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<span class="date">April 14, 2017</span>
-										<h2><a href="#">Tempus sed<br />
-										nulla imperdiet</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/pic05.jpg" alt="" /></a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
-									<ul class="actions special">
-										<li><a href="#" class="button">Full Story</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<span class="date">April 11, 2017</span>
-										<h2><a href="#">Odio magna<br />
-										sed consectetur</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/pic06.jpg" alt="" /></a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
-									<ul class="actions special">
-										<li><a href="#" class="button">Full Story</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<span class="date">April 7, 2017</span>
-										<h2><a href="#">Augue lorem<br />
-										primis vestibulum</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/pic07.jpg" alt="" /></a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
-									<ul class="actions special">
-										<li><a href="#" class="button">Full Story</a></li>
-									</ul>
-								</article>
-							</section>
+      <br>
+      <HEADER>Warnings</HEADER>
+      <p>This game contains potentially disturbing imagery and content that may not be suitable for all players, particularly those who are easily disturbed or have photosensitive epilepsy.</p>
+      <p>This game is intended for mature audiences and is not suitable for children.</p>
+      <p>VIEWER DISCRETION IS ADVISED</p>
+      <p>To be honest I am not GREAT at spelling so if there are a bunch of misspelled words it's probably not some hidden lore and most likely my bad spelling. Sorry!</p>
 
-						<!-- Footer -->
-							<footer>
-								<div class="pagination">
-									<!--<a href="#" class="previous">Prev</a>-->
-									<a href="#" class="page active">1</a>
-									<a href="#" class="page">2</a>
-									<a href="#" class="page">3</a>
-									<span class="extra">&hellip;</span>
-									<a href="#" class="page">8</a>
-									<a href="#" class="page">9</a>
-									<a href="#" class="page">10</a>
-									<a href="#" class="next">Next</a>
-								</div>
-							</footer>
+      <HEADER>Video Recording of Phantomware 0</HEADER>
+      <p>You will have issues captureing Phantomware 0when using "Application"/"Game" capture. Please instead use "Display capture" to capture the WHOLE screen when recording. If you plan to record this game (espcially if you plan for a live broadcast this game) that you read over the Technical Warnings as there may be some features you would like to be aware of before live broadcast.</p>
+      <p>Please see technical warnings for a better understanding of this game. I feel like its really important for those who intened to live broadcast this game to understand what info it could potentially leak...</p>
 
-					</div>
+      <HEADER>Game Info</HEADER>
+      <br>
+      <h>• Controls:</h>
+      <p>There are various points through the game that have diffrent controls. 3D sections use WASD for movement with the Mouse to look around. For the rest of the game use controls that would reflect that of a computer. You can grab tabs and move tabs around by clicking on the tab bar. Double click to open up an application. (basically just regurlar old computer controls)</p>
+      <br>
+      <h>• First Boot:</h>
+      <p>Please note, the game may take a short while to start on the first boot of the game. This is because it's creating and generating various files needed for the game to run.</p>
+      <br>
+      <h>• Window:</h>
+      <p>The game will boot up onto the primary monitor in full screen, to change primary monitor it is best to change it in the system display settings</p>
+      <p>The game is designed for 16:9 with 100% screen scale so if you are finding issues in other ratios seek the "windowed" option in the settings *note it is NOT recormended to play in windowed mode use as last resort.</p>
+      <br>
+      <h>• Saving:</h>
+      <p>The game will save automatically at set points during the story.</p>
+      <br>
+      <h>• Close / Pause the game:</h>
+      <p>You can press "escape" key to open the pause button.</p>
+      <p>Additionally the game can be closed through "steam force close" or by using the "Alt+F4" shorcut</p>
+      <br>
+      </ul>
 
-				<!-- Footer -->
-					<footer id="footer">
-						<section>
-							<form method="post" action="#">
-								<div class="fields">
-									<div class="field">
-										<label for="name">Name</label>
-										<input type="text" name="name" id="name" />
-									</div>
-									<div class="field">
-										<label for="email">Email</label>
-										<input type="text" name="email" id="email" />
-									</div>
-									<div class="field">
-										<label for="message">Message</label>
-										<textarea name="message" id="message" rows="3"></textarea>
-									</div>
-								</div>
-								<ul class="actions">
-									<li><input type="submit" value="Send Message" /></li>
-								</ul>
-							</form>
-						</section>
-						<section class="split contact">
-							<section class="alt">
-								<h3>Address</h3>
-								<p>1234 Somewhere Road #87257<br />
-								Nashville, TN 00000-0000</p>
-							</section>
-							<section>
-								<h3>Phone</h3>
-								<p><a href="#">(000) 000-0000</a></p>
-							</section>
-							<section>
-								<h3>Email</h3>
-								<p><a href="#">info@untitled.tld</a></p>
-							</section>
-							<section>
-								<h3>Social</h3>
-								<ul class="icons alt">
-									<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
-									<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
-									<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
-									<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-								</ul>
-							</section>
-						</section>
-					</footer>
+      <HEADER>System Requirements</HEADER>
+	  <br>
+      <ul>
+        <li><strong>Minimum:</strong>
+          <ul>
+            <li>Requires a 64‑bit processor and operating system</li>
+            <li>OS: Windows 10</li>
+            <li>Processor: Intel or AMD Dual Core at 2 GHz or better</li>
+            <li>Memory: 8 GB RAM</li>
+            <li>Graphics: Intel Graphics 4400 or better</li>
+            <li>Storage: 1 GB available space</li>
+            <li>Sound Card: Any</li>
+          </ul>
+        </li>
+		<br>
+        <li><strong>Recommended:</strong>
+          <ul>
+            <li>Requires a 64-bit processor and operating system</li>
+            <li>OS: Windows 10</li>
+            <li>Processor: i5-8250U CPU</li>
+            <li>Memory: 16 GB RAM</li>
+            <li>Graphics: GeForce GTX 1080</li>
+            <li>Storage: 1 GB available space</li>
+            <li>Sound Card: Any</li>
+          </ul>
+        </li>
+      </ul>
 
-				<!-- Copyright -->
-					<div id="copyright">
-						<ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
-					</div>
+      <HEADER>Technical Warnings</HEADER>
+      <p><i>Contains spoilers: (!) you can hover over the spoilers for places that require more clarification or contain spoilers.</i></p>
+      <p>This game (Phantomware 0) will interact with your computer's settings and files in unconventional ways. Below are the effects the game will have on your computer:</p>
+      <br><br>
 
-			</div>
+      <h>• Desktop Wallpaper</h>
+      <p>Phantomware 0 will modify your desktop wallpaper, creating custom images during gameplay.<br>These images are saved in the game's install directory at: <i>Phantomware 0\Phantomware 0_Data\StreamingAssets</i></p>
+      <p><span class="spoiler">​The game will read your desktop wallpaper from your windows registry, It will then make a couple versions of it with various filters. In game, there will be an event where it changes your desktop wallpaper, and after you go back to the game, it will revert it.</span></p>
+      <br>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+      <h>• Registry Modifications</h>
+      <p>Phantomware 0 will access, store, and modify entries in the Windows Registry.</p>
+      <p><span class="spoiler">This is to change the desktop wallpaper. (Basically this allows the game to temporarily change desktop wallpaper without any permanent effects).</span></p>
+      <br>
 
-	</body>
+      <h>• File Access</h>
+      <p>By running Phantomware 0, you grant the game access, storage, and modification to data on all drives of your computer.</p>
+      <p><span class="spoiler">The game will access the file to your desktop wallpaper, and create, modify and store data in the games folder <i>Phantomware 0\Phantomware 0_Data\</i>.</span></p>
+      <br>
+
+      <h>• Application Interaction</h>
+      <p>Phantomware 0 may interact with open applications on your computer, including modifying, opening, or closing them, example: browser.</p>
+      <br>
+
+      <h>• Recovery Mode</h>
+      <p>All effects caused by Phantomware 0 are automatically reverted when the game is properly closed. In the event of a crash or sudden interruption, the game will attempt to recover and restore your computer's state to its original settings.</p>
+      <br>
+
+      <h>• Recording</h>
+      <p>This game can be streamed; however, it is recommended to record this experience so unwanted information can be appropriately censored. If you want to stream this game here are some things in particular you might want to know about… <b>[CONTAINS SPOILERS]</b></p>
+      <p><span class="spoiler">Phantomware 0 contains an immersive scare that directly interacts with your desktop.<br><br>
+		At a certain point in the game, Phantomware 0 will minimize itself and reveal your actual desktop, replacing your wallpaper with a custom horror image as part of a scripted jumpscare. During this moment, anything on your desktop — including icons, files, and shortcuts — will be visible.<br><br>
+		If you do not want viewers to see what’s on your desktop, please take time beforehand to hide or clean up any sensitive or personal files, folders, or icons. This includes removing shortcuts, documents, or any content you wouldn’t want appearing on stream or in a recording.<br><br>
+		As part of the scare, the game will also generate a temporary “README.txt” file on your desktop. Both the wallpaper and the file will automatically revert/disappear once you return to the game by maximizing the window.<br><br>
+		This feature is purely cosmetic and non-malicious, intended to enhance the psychological horror experience.<br><br>
+		✅ No personal data is collected or uploaded.<br>
+		✅ No webcam, microphone, or folder access is used.<br>
+		✅ Only your wallpaper is temporarily changed, and one file is briefly placed on the desktop.</span></p>
+
+      <br>
+      <HEADER>Attribution</HEADER>
+      <br>
+      <h>a game by Lumimoth</h>
+      <br><br><br>
+
+      <h>//&lt;Voice_Acting&gt;</h>
+      <p>Rahul Chakraborty – Abhishek Nair</p>
+      <p>“US” & “Whispers” – Chinmay Walimbe, Adnan Yousuf</p>
+      <br><br>
+
+      <h>//&lt;Music&gt;</h>
+      <p>“Gone Gone” – Quadeca</p>
+      <p>“Cassini’s Division” – Quadeca & Thor Harris</p>
+      <p>“Up the Spiral Stairs” –  Reno</p>
+      <p>“Windows 95/98 – Bach’s Brandenburg Concerto No.3.rmi” – Johann Sebastian Bach</p>
+      <br><br>
+
+      <h>//&lt;Language&gt;</h>
+	  <p>(English) Subtitles available</p>
+	  <br><br>
+
+      <HEADER>Licence</HEADER>
+      <p>Phantomware 0 – Copyright (c) 2025 Lumimoth Pvt. Ltd. All rights reserved.</p>
+    </div>
+
+    <div class="barcode-space">
+      █ │█│ █ █ █  █│█ █ │ █│
+    </div>
+  </div>
+</body>
 </html>
